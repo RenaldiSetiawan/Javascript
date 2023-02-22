@@ -1,0 +1,6 @@
+--> Jika package berada pada objek dependencies, kita dapat menghapusnya menggunakan perintah:
+    npm uninstall <package-name>
+
+--> Jika package terdapat pada devDependencies, kita cukup menambahkan --save-dev di akhir perintahnya.
+    npm uninstall <package-name> --save-dev
+

@@ -1,0 +1,23 @@
+{
+  "name": "belajar-dasar-javascript-dicoding",
+  "version": "1.0.0",
+  "description": "Learn",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "javasript",
+    "npm",
+    "node"
+  ],
+  "author": "Renal",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}

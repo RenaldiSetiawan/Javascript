@@ -1,0 +1,25 @@
+<-- inisialisasi packge.json -->
+npm init
+
+<-- instalasi packge -->
+npm install <package-name>
+
+--> Sebuah package harus diinstal secara global hanya saat ia menyediakan perintah yang dapat dieksekusi dari CLI dan 
+    digunakan kembali di semua project. Beberapa contoh package yang perlu diinstal secara global, antara lain:
+    Di mana -g berarti global.
+npm
+nodemon
+mocha
+
+npm install -g <package-name>
+
+--> Lodash adalah package yang berisi banyak utilitas untuk memudahkan kita dalam menulis kode JavaScript, 
+    khususnya yang berhubungan dengan array, object, string, dll.
+
+npm install lodash
+
+--> dependencies merupakan objek yang menampung package yang kita gunakan untuk membuat aplikasi.
+--> devDependencies digunakan untuk package yang berkaitan hanya saat proses pengembangan aplikasi, 
+    contohnya seperti package jest yang digunakan untuk testing.
+--> Untuk memasang package sebagai devDependencies, kita bisa menambahkan parameter --save-dev pada perintah npm install.
+npm install <package-name> --save-dev
